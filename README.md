@@ -1,15 +1,22 @@
-
-## Completed Lessons
-
-### Build Quincy's Tips for Getting a Developer Job Page
-
-Skills practiced:
-- HTML semantic elements
-- q element
-- blockquote element
-- cite element
-- HTML entities
-=======
 # freecodecamp-responsive-web-design
-My progress and projects while completing the freeCodeCamp Responsive Web Design Certification.
 
+My progress and projects while completing the FreeCodeCamp Responsive Web Design Certification.
+
+## Progress
+
+- ✅ Basic HTML
+- ✅ Semantic HTML
+- 🔄 Forms and Tables
+- ⏳ Accessibility
+- ⏳ CSS
+
+## Repository Structure
+
+HTML/
+- 01-Basic-HTML
+- 02-Semantic-HTML
+- 03-Forms-Tables
+
+## Goal
+
+Complete the FreeCodeCamp Responsive Web Design Certification while building a strong HTML and CSS foundation.
