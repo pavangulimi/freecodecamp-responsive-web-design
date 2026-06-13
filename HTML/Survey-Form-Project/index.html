@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Student Learning Survey</h1>
+    <p id="description">Help us understand your learning preferences and improve our courses.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">name</label>
+      <input required id="name" type="text" placeholder="Enter Your Name"><br>
+      <label for="email" id="email-label">email</label>
+      <input  required id="email" type="email" placeholder="Enter Your Email"><br>
+      <label for="number" id="number-label">Age</label>
+      <input  required id="number" type="number" min=2 max=90 placeholder="Enter Your Age"><br>
+      <h2>Current Learning Level</h2>
+      <select id="dropdown">
+        <option>Choose one:</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+        <option>Professional</option>
+      </select>
+      <h2>Preferred Learning Method</h2>
+      <input type="radio" name="Learning" id="VideoTutorials" value="VideoTutorials">
+      <label for="Video Tutorials">Video Tutorials</label>
+      <input type="radio" name="Learning" id="ReadingArticles" value="ReadingArticles">
+      <label for="Reading Articles">Reading Articles</label>
+      <input type="radio" name="Learning" value="LiveClasses" id="LiveClasses">
+      <label for="LiveClasses">Live Classes</label>
+      <input type="radio" name="Learning" id="ProjectBasedLearning" value="ProjectBasedLearning">
+      <label for="ProjectBasedLearning">Project-Based Learning</label>
+      <h2>Technologies You Want to Learn</h2>
+      <input type="checkbox" value="html" id="html" name="technology">
+      <label for="html"> HTML</label><br>
+      <input type="checkbox" value="css" id="css" name="technology">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" value="javascript" id="javascript" name="technology">
+      <label for="javascript"> JavaScript</label><br>
+      <input type="checkbox" value="React" id="React" name="technology">
+      <label for="React"> React</label><br>
+      <input type="checkbox" value="Node.js" id="Node.js" name="technology">
+      <label for="Node.js"> Node.js</label><br>
+      <input type="checkbox" value="Python" id="Python" name="technology">
+      <label for="Python">Python</label><br>
+      <h2>Tell us about your learning goals:</h2>
+      <textarea cols="40" rows="7"></textarea><br> 
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

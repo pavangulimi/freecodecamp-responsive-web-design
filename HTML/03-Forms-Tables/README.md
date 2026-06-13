@@ -33,3 +33,4 @@ Completed Projects:
 - th
 - thead
 - tbody
+- tfoot
